@@ -1,0 +1,122 @@
+body, html {
+    height: 100%;
+    background-image: url("images/fundoRosasBrancas50p.png");
+    background-size: cover;
+}
+
+.cabecalho {
+    background-color: #344f46;
+    /* height: 220px; */
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.relative {
+    position: relative;
+}
+
+.logo {
+    background-image: url("images/logo1.png");
+    background-size: cover;
+    height: 210px;
+    width: 310px;
+    margin: auto;
+    /* border: red 5px solid; */
+}
+
+.social-links {
+    margin: 25px 0px;
+    filter: invert(48%) sepia(31%) saturate(1087%) hue-rotate(312deg) brightness(105%) contrast(86%);
+}
+
+a {
+    font-size: larger;
+    color: #EEE4DA;
+}
+
+.depoimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* width: 400px;
+    height: 600px; */
+    /* border: red 5px solid; */
+    margin-bottom: 25px;
+}
+
+.profilepicture1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url("images/fregoliProfile.png");
+    background-size: cover;
+    border: #EC6968 solid 15px;
+    margin-bottom: 25px;
+}
+
+.profilepicture2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url("images/yohannaProfile.png");
+    background-size: cover;
+    border: #EC6968 solid 15px;
+    margin-bottom: 25px;
+}
+
+.depoimentotexto1 {
+    width: 275px;
+    color: #344f46;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.depoimentotexto2 {
+    width: 300px;
+    color: #344f46;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.super-bold {
+    font-weight: 900;
+    font-style: normal;
+}
+
+.btn-flutuante {
+    position: fixed;
+    bottom: 100px;
+    /* right: 150px; */
+    right: 20%;
+    left: 30%;
+    background-color: #7289da;
+    color: #fff;
+    border: none;
+    /* border-radius: 15%; */
+    height: 100px;
+    width: 40vw;
+    min-width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; */
+}
+
+.discIconText {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.discIcon {
+    filter: brightness(0) saturate(100%) invert(94%) sepia(94%) saturate(0%) hue-rotate(181deg) brightness(106%) contrast(107%);
+}
