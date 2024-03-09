@@ -34,6 +34,11 @@ a {
     color: #EEE4DA;
 }
 
+.depoimentos {
+    /* height: 600px; */
+    padding-bottom: 120px;
+}
+
 .depoimento {
     display: flex;
     flex-direction: column;
