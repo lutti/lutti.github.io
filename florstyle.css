@@ -90,7 +90,7 @@ a {
 
 .btn-flutuante {
     position: fixed;
-    bottom: 100px;
+    bottom: 25px;
     /* right: 150px; */
     right: 20%;
     left: 30%;
