@@ -125,3 +125,7 @@ a {
 .discIcon {
     filter: brightness(0) saturate(100%) invert(94%) sepia(94%) saturate(0%) hue-rotate(181deg) brightness(106%) contrast(107%);
 }
+
+.twitchplayer {
+    margin-bottom: 50px;
+}
