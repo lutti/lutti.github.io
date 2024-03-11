@@ -131,3 +131,11 @@ a {
     min-height: 400px;
     height: 100%;
 }
+
+.livetime {
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color: #E3C5B8;
+}
