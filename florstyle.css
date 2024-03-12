@@ -70,6 +70,16 @@ a {
     margin-bottom: 25px;
 }
 
+.profilepicture3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url("florimages/reicaveiraProfile.png");
+    background-size: cover;
+    border: #EC6968 solid 15px;
+    margin-bottom: 25px;
+}
+
 .depoimentotexto1 {
     width: 275px;
     color: #344f46;
